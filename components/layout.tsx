@@ -7,7 +7,7 @@ import Link from 'next/link';
 const name = 'Longsur - 我的世界基岩版服务器';
 export const siteTitle = 'Next.js Sample Website';
 
-const Layout = ({ children, home }) => {
+const Layout = ({ children, home }: any) => {
   return (
     <div className={styles.container}>
       <Head>
